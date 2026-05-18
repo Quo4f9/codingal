@@ -1,0 +1,1 @@
+# Create a Bus child class inherited from the Vehicle class to calculate the total fare
