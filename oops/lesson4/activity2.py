@@ -7,4 +7,18 @@ class computer:
         print(f"Selling price:{self. __maxprice}")
     def SetMaxPrice(self, price):
           self. __maxprice=price
-          
+c = Computer()
+
+c.sell()
+
+# change the price
+
+c.__maxprice = 1000
+
+c.sell()
+
+# using setter function
+
+c.setMaxPrice(1000)
+
+c.sell()
