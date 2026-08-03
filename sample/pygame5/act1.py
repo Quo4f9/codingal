@@ -15,7 +15,7 @@ COLLISION_DISTANCE=27
 
 pygame.init()
 screen=pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
-background=pygame.image.load('bg.png')
+background=pygame.image.load('pygame5/background.png')
 
 pygame.display.set_caption("space invader")
 icon=pygame.image.load('ufo.png')
@@ -34,13 +34,13 @@ enemyY_change=[]
 num_of_enemies=6
 
 for _i in range(num_of_enemies):
-    enemyImg.append(pygame.image.load('enemy.png'))
+    enemyImg.append(pygame.image.load('pygame5/enemy_png-removebg-preview.png'))
     enemyX.append(random.randint(0, SCREEN_WIDTH -64))
     enemyY.append(random.randint(ENEMY_START_Y_MIN, ENEMY_START_Y_MAX))
     enemyX_change.append(ENEMY_SPEED_X)
     enemyY_change.append(ENEMY_SPEED_Y)
 
-bulletImg= pygame.image.load('bullet.png')
+bulletImg= pygame.image.load('pygame5/bullet_png-removebg-preview.png')
 bulletX=0
 bulletY=PLAYER_START_Y
 bulletX_change=0
@@ -130,3 +130,7 @@ while running:
     show_score(textX, textY)
     pygame.display.update()
                 
+
+
+
+            
