@@ -1,0 +1,1 @@
+# In this assignment, you will build an ATM PIN Setup Interface using Python and Tkinter. You will group account details and keypad cells inside frames, add raised and sunken borders, build a keypad with grid(), position form widgets precisely with place(), hide the PIN using show="*", and use a button to read the entered details and update a Text widget.
