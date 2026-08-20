@@ -1,0 +1,1 @@
+# In this assignment, you will build an After-School Routine Checker using Python and Tkinter. You will create a simple app that responds when you type a task, click the routine area, or press a button. The app will display the last character you typed, react to a mouse click, show a warning when no task is entered, and display the next task in your routine.
