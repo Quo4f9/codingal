@@ -1,0 +1,1 @@
+# In this assignment, you will build a Letter Writing Application using Python and Tkinter. You will open an existing letter, read its contents into a text editor, edit the text, save the letter as a new file, display the selected file path in the window title, connect button commands to functions, and arrange the interface using the grid layout.
