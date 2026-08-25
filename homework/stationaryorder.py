@@ -1,0 +1,1 @@
+# In this assignment, you will build a Stationery Order Management App using Python and Tkinter. You will display a background image on a Canvas, create the interface with themed ttk widgets, generate stationery rows using enumerate(), switch between USD and INR using ternary expressions, and validate entered quantities with .isdigit().
