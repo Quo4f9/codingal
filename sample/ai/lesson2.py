@@ -3,7 +3,7 @@ from textblob import TextBlob
 
 init()
 
-print(f"{Fore.CYAN}Welcome to sentiment spy! {style.RESET_ALL}")
+print(f"{Fore.CYAN}Welcome to sentiment spy! {Style.RESET_ALL}")
 name=input(f"{Fore.MAGENTA}Enter your name:{Style.RESET_ALL}").strip() or "mystery agnet"
 
 history=()
