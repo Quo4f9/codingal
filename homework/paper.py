@@ -1,0 +1,1 @@
+# Develop a Python-based Rock Paper Scissors game where players compete against an AI opponent employing basic strategies to enhance decision-making and programming skills.
